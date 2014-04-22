@@ -1,0 +1,11 @@
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+license.ccdata
+
+*/bin/*
+*/obj/*
+*/*/bin/*
+*/*/obj/*
