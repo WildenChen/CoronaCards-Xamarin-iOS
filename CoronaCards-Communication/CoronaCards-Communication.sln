@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoronaCards-Communication", "CoronaCards-Communication\CoronaCards-Communication.csproj", "{3EA3EB18-40FB-4652-9B2C-E50C6E237809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoronaCards-Binding", "..\CoronaCards-Binding\CoronaCards-Binding\CoronaCards-Binding.csproj", "{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Debug|iPhone.Build.0 = Debug|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Release|iPhone.ActiveCfg = Release|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Release|iPhone.Build.0 = Release|iPhone
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{3EA3EB18-40FB-4652-9B2C-E50C6E237809}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Release|iPhone.Build.0 = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EC72649A-F66A-4362-9C3B-1738FBD3DB7A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CoronaCards-Communication\CoronaCards-Communication.csproj
+	EndGlobalSection
+EndGlobal
