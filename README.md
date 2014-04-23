@@ -10,9 +10,12 @@ iOS Build > General > Additional mtouch arguments:
 And in project.csproj 
 
 Change
+<br>
 \<IPhoneResourcePrefix>Resources\</IPhoneResourcePrefix> 
-
-to \<IPhoneResourcePrefix>Resources;Corona\</IPhoneResourcePrefix>
+<br>
+to
+<br>
+\<IPhoneResourcePrefix>Resources;Corona\</IPhoneResourcePrefix>
 
 in CoronaCards-Communication sample project, Extensions/CoronaCardsViewExtensions.cs can help Xamarin user to use event easy.
 
