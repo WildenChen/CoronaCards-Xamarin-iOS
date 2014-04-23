@@ -17,18 +17,20 @@ to
 <br>
 \<IPhoneResourcePrefix>Resources;Corona\</IPhoneResourcePrefix>
 
-in CoronaCards-Communication sample project, Extensions/CoronaCardsViewExtensions.cs can help Xamarin user to use event easy.
+in CoronaCards-Communication sample project, 
+<br>
+Extensions/CoronaCardsViewExtensions.cs can help Xamarin user to use event easy.
 
 ----------------------------------------------------------------------------------------
 example:
 <br>
-CoronaView _view = mCoronaCardsViewController.View as CoronaView;
-_view.CoronaCards ().OnReceive += HandleOnReceive;
-void HandleOnReceive (CoronaView target, NSDictionary e){.....}
- 
+CoronaView _view = mCoronaCardsViewController.View as CoronaView;<br>
+_view.CoronaCards ().OnReceive += HandleOnReceive;<br>
+void HandleOnReceive (CoronaView target, NSDictionary e){.....}<br>
+ <br>
 or 
- 
-_view.CoronaCards ().OnReceive += (CoronaView target, NSDictionary e) => {};
+ <br>
+_view.CoronaCards ().OnReceive += (CoronaView target, NSDictionary e) => {};<br>
 
 ----------------------------------------------------------------------------------------
 
