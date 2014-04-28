@@ -14,11 +14,6 @@ crate.rotation = 5
 physics.addBody( ground, "static", { friction=0.5, bounce=0.3 } )
 physics.addBody( crate, { density=3.0, friction=0.5, bounce=0.3 } )
 
-local mText = display.newText("嗨！中文！",0,0,native.systemfont,40)
-mText.x=display.contentWidth/2
-mText.y=display.contentHeight/2
-mText:setTextColor(255,110,110)
-
 local ui = require("ui")
 
 local on1Touched = function(event)
@@ -46,6 +41,7 @@ local mButton = ui.newButton{
 	size=16,
 	emboss=false
 }
+
 mButton.x=160
 mButton.y=131
 
@@ -54,13 +50,8 @@ local function handlePause( event )
     if ( event.phase == "pause" ) then
         print(event.name ) --> pauseEvent
         print(event.otherKey ) --> otherValue
-        --handle pause implementation here
-        --sendEventToXamarin()
     end
     return true
 end
 
 Runtime:addEventListener( "pauseEvent", handlePause )
-
-
---mButton:addEventListener( "touch", pressMe )
