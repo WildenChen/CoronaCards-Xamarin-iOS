@@ -23,7 +23,7 @@ namespace CoronaCards
 		int Run (); //int Run { get; }
 
 		[Export ("runWithPath:parameters:")]
-		int RunWithPath (string path, NSDictionary pParams);
+		int RunWithPath (string pPath, NSDictionary pParams);
 
 		[Export ("suspend")]
 		void Suspend ();
@@ -35,23 +35,24 @@ namespace CoronaCards
 		NSObject SendEvent (NSDictionary pEvent);
 	}
 
-	[Model, BaseType (typeof (NSObject))]
+	[BaseType (typeof (NSObject))]
+	[Model][Protocol]
 	public partial interface CoronaViewDelegate {
 
 		[Export ("coronaView:receiveEvent:")]
-		NSObject ReceiveEvent(CoronaView view, NSDictionary pEvent);
+		NSObject ReceiveEvent(CoronaView pView, NSDictionary pEvent);
 
 		[Export ("coronaViewWillSuspend:")]
-		void CoronaViewWillSuspend(CoronaView view);
+		void CoronaViewWillSuspend(CoronaView pView);
 
 		[Export ("coronaViewDidSuspend:")]
-		void CoronaViewDidSuspend(CoronaView view);
+		void CoronaViewDidSuspend(CoronaView pView);
 
 		[Export ("coronaViewWillResume:")]
-		void CoronaViewWillResume(CoronaView view);
+		void CoronaViewWillResume(CoronaView pView);
 
 		[Export ("coronaViewDidResume:")]
-		void CoronaViewDidResume(CoronaView view);
+		void CoronaViewDidResume(CoronaView pView);
 	}
 }
 
